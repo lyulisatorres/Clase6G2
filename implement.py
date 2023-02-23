@@ -1,4 +1,5 @@
 from sistemaVet import *
+import datetime
 
 def main():
     servicio_hospitalario = sistemaV()
@@ -21,7 +22,7 @@ def main():
                 nombre=input("Ingrese el nombre de la mascota: ")
                 tipo=input("Ingrese el tipo de mascota (felino o canino): ")
                 peso=int(input("Ingrese el peso de la mascota: "))
-                fecha=input("Ingrese la fecha de ingreso (dia/mes/año): ")
+                fecha=input("Ingrese la fecha de ingreso (año/mes/día): ")
                 medicamento=Medicamento()
                 medicamento.asignarNombre(input("Ingrese nombre del medicamento: "))
                 medicamento.asignarDosis(int(input("Ingrese dosis del medicamento: ")))
